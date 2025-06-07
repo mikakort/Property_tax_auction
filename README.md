@@ -1,6 +1,6 @@
-# Flask Project
+# Mapping of property tax auctions
 
-A basic Flask application with environment variable support.
+A python flask project that easily displays properties from any csv file on an interactive map. It achieves this by using the Anthropic API for rough formatting and the Google Maps API for sleek presentation.
 
 ## Setup
 
@@ -34,6 +34,7 @@ pip install -r requirements.txt
 
 ```
 PORT=5000
+GOOGLE_API_KEY=xyz
 ```
 
 ## Running the Application
